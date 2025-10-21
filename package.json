@@ -1,0 +1,29 @@
+{
+  "name": "string-analyzer-service",
+  "version": "1.0.0",
+  "description": "String Analyzer Service API HNG Stage 1 Task",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fave7903/string-analyzer-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fave7903/string-analyzer-service/issues"
+  },
+  "homepage": "https://github.com/Fave7903/string-analyzer-service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "nodemon": "^3.1.10"
+  }
+}
